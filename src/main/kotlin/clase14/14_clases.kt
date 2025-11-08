@@ -10,6 +10,15 @@ class Email(
     fun marcarComoLeido(){
         leido =true
     }
+    fun getterLeido(): Boolean
+    {
+        return leido
+    }
+    fun setterLeido(): Boolean
+    {
+        this.leido = leido
+        return leido
+    }
     fun marcarComoNoLeido()
     {
         leido = false
